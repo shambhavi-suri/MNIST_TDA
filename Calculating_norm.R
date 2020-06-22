@@ -1,4 +1,5 @@
 #Finding norm of landscape
+#Uses norm function defined in norm.R
 #norm_i_j denotes jth norm of 1st landscape function of dimension i
 norm_0_1 = NULL  
 norm_1_1 = NULL
@@ -18,4 +19,7 @@ for(i in c)
   norm_1_2 = c(norm_1_2, norm(2,Land_1))
 }
 norm_landscape = data.frame(norm_0_1, norm_1_1, norm_0_2, norm_1_2)
+
+#Norm_ landscape is stored in norm_landscape2.Rda
+#The columns are stored separately in norm2.Rda
 
