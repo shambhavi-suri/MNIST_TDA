@@ -2,6 +2,7 @@
 train1 = subset(train, y==9)
 k=dim(train1[1])[1]
 c <- seq(1,k,1)
+x <- seq(0, 400, length = 1000)
 #vector of persistance diagrams
 vQ=NULL
 vQC=NULL
@@ -16,7 +17,6 @@ for(i in c)
 #Plotting Landscapes
 Land <- landscape(vQC[1][["diagram"]], dimension = 1, KK = 1, tseq)
 plot( x, Land, type="l", col="red", ylim= c(0,210) )
-
 c=seq(2,k)
 for(i in c)
 {
