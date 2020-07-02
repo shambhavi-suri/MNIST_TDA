@@ -1,0 +1,99 @@
+Digit 0:
+norm_0_1        norm_1_1        norm_0_2       norm_1_2            s     #####  
+Min.   :16129   Min.   :    0   Min.   :1169   Min.   :   0.0   0      :5923  
+1st Qu.:16257   1st Qu.: 8556   1st Qu.:1175   1st Qu.: 721.7   1      :   0  
+Median :16277   Median :13572   Median :1175   Median :1020.1   2      :   0  
+Mean   :17533   Mean   :11730   Mean   :1189   Mean   : 879.9   3      :   0  
+3rd Qu.:17026   3rd Qu.:15876   3rd Qu.:1179   3rd Qu.:1154.8   4      :   0  
+Max.   :55347   Max.   :44373   Max.   :2004   Max.   :1763.0   5      :   0  
+(Other):   0  
+
+Digit 1:
+norm_0_1        norm_1_1           norm_0_2       norm_1_2            s       
+Min.   :16129   Min.   :   0.000   Min.   :1169   Min.   :  0.00   1      :6742  
+1st Qu.:16256   1st Qu.:   0.000   1st Qu.:1175   1st Qu.:  0.00   0      :   0  
+Median :16258   Median :   0.000   Median :1175   Median :  0.00   2      :   0  
+Mean   :16839   Mean   :   8.969   Mean   :1183   Mean   :  1.19   3      :   0  
+3rd Qu.:16483   3rd Qu.:   0.000   3rd Qu.:1176   3rd Qu.:  0.00   4      :   0  
+Max.   :73559   Max.   :4488.983   Max.   :2421   Max.   :447.78   5      :   0  
+(Other):   0  
+
+Digit 2:
+norm_0_1        norm_1_1        norm_0_2       norm_1_2             s       
+Min.   :16129   Min.   :    0   Min.   :1169   Min.   :   0.00   2      :5958  
+1st Qu.:16260   1st Qu.:    0   1st Qu.:1175   1st Qu.:   0.00   0      :   0  
+Median :16457   Median :  256   Median :1176   Median :  52.24   1      :   0  
+Mean   :17971   Mean   : 4861   Mean   :1194   Mean   : 380.03   3      :   0  
+3rd Qu.:17898   3rd Qu.:10300   3rd Qu.:1187   3rd Qu.: 822.63   4      :   0  
+Max.   :69388   Max.   :32571   Max.   :2099   Max.   :1662.39   5      :   0  
+(Other):   0  
+
+Digit 3:
+norm_0_1        norm_1_1          norm_0_2       norm_1_2             s       
+Min.   :16129   Min.   :    0.0   Min.   :1169   Min.   :   0.00   3      :6131  
+1st Qu.:16263   1st Qu.:    0.0   1st Qu.:1175   1st Qu.:   0.00   0      :   0  
+Median :16578   Median :    0.0   Median :1176   Median :   0.00   1      :   0  
+Mean   :18471   Mean   :  381.4   Mean   :1203   Mean   :  36.62   2      :   0  
+3rd Qu.:18359   3rd Qu.:    0.0   3rd Qu.:1191   3rd Qu.:   0.00   4      :   0  
+Max.   :75149   Max.   :31752.0   Max.   :2369   Max.   :1633.14   5      :   0  
+(Other):   0  
+
+Digit 4:
+norm_0_1        norm_1_1          norm_0_2       norm_1_2             s       
+Min.   :16129   Min.   :    0.0   Min.   :1169   Min.   :   0.00   4      :5842  
+1st Qu.:16260   1st Qu.:    0.0   1st Qu.:1175   1st Qu.:   0.00   0      :   0  
+Median :16530   Median :    0.0   Median :1176   Median :   0.00   1      :   0  
+Mean   :17945   Mean   :  850.8   Mean   :1194   Mean   :  70.22   2      :   0  
+3rd Qu.:18037   3rd Qu.:    0.0   3rd Qu.:1188   3rd Qu.:   0.00   3      :   0  
+Max.   :58261   Max.   :28916.7   Max.   :2166   Max.   :1397.27   5      :   0  
+(Other):   0  
+
+Digit 5:
+norm_0_1        norm_1_1          norm_0_2       norm_1_2             s       
+Min.   :16129   Min.   :    0.0   Min.   :1169   Min.   :   0.00   5      :5421  
+1st Qu.:16298   1st Qu.:    0.0   1st Qu.:1176   1st Qu.:   0.00   0      :   0  
+Median :17100   Median :    0.0   Median :1180   Median :   0.00   1      :   0  
+Mean   :19601   Mean   :  365.7   Mean   :1227   Mean   :  35.12   2      :   0  
+3rd Qu.:20382   3rd Qu.:    0.0   3rd Qu.:1216   3rd Qu.:   0.00   3      :   0  
+Max.   :69434   Max.   :16602.5   Max.   :2344   Max.   :1175.49   4      :   0  
+(Other):   0  
+
+Digit 6:
+norm_0_1        norm_1_1        norm_0_2       norm_1_2            s       
+Min.   :16129   Min.   :    0   Min.   :1169   Min.   :   0.0   6      :5918  
+1st Qu.:16261   1st Qu.: 5023   1st Qu.:1175   1st Qu.: 468.0   0      :   0  
+Median :16531   Median :10609   Median :1176   Median : 835.0   1      :   0  
+Mean   :18313   Mean   : 9675   Mean   :1199   Mean   : 736.8   2      :   0  
+3rd Qu.:18236   3rd Qu.:14739   3rd Qu.:1189   3rd Qu.:1073.3   3      :   0  
+Max.   :64454   Max.   :34897   Max.   :2035   Max.   :1652.7   4      :   0  
+(Other):   0  
+
+Digit 7:
+norm_0_1        norm_1_1           norm_0_2       norm_1_2              s       
+Min.   :16129   Min.   :    0.00   Min.   :1169   Min.   :   0.000   7      :6265  
+1st Qu.:16257   1st Qu.:    0.00   1st Qu.:1175   1st Qu.:   0.000   0      :   0  
+Median :16317   Median :    0.00   Median :1176   Median :   0.000   1      :   0  
+Mean   :17480   Mean   :   68.22   Mean   :1190   Mean   :   7.945   2      :   0  
+3rd Qu.:17182   3rd Qu.:    0.00   3rd Qu.:1181   3rd Qu.:   0.000   3      :   0  
+Max.   :71399   Max.   :17280.22   Max.   :2310   Max.   :1184.743   4      :   0  
+(Other):   0  
+
+Digit 8:
+norm_0_1        norm_1_1        norm_0_2       norm_1_2            s       
+Min.   :16129   Min.   :    0   Min.   :1169   Min.   :   0.0   8      :5851  
+1st Qu.:16268   1st Qu.:12262   1st Qu.:1175   1st Qu.: 872.1   0      :   0  
+Median :16751   Median :17881   Median :1177   Median :1144.9   1      :   0  
+Mean   :18911   Mean   :18708   Mean   :1204   Mean   :1103.5   2      :   0  
+3rd Qu.:19243   3rd Qu.:26190   3rd Qu.:1198   3rd Qu.:1406.0   3      :   0  
+Max.   :72653   Max.   :47628   Max.   :2089   Max.   :2000.2   4      :   0  
+(Other):   0  
+
+Digit 9:
+norm_0_1        norm_1_1        norm_0_2       norm_1_2            s       
+Min.   :16129   Min.   :    0   Min.   :1169   Min.   :   0.0   9      :5949  
+1st Qu.:16265   1st Qu.: 3702   1st Qu.:1175   1st Qu.: 374.7   0      :   0  
+Median :16699   Median : 9506   Median :1177   Median : 774.0   1      :   0  
+Mean   :18560   Mean   : 8827   Mean   :1203   Mean   : 688.9   2      :   0  
+3rd Qu.:18830   3rd Qu.:13924   3rd Qu.:1195   3rd Qu.:1033.5   3      :   0  
+Max.   :71116   Max.   :34529   Max.   :2288   Max.   :1633.1   4      :   0  
+(Other):   0
