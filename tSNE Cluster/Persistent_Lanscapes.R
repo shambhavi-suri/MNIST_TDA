@@ -60,7 +60,7 @@ land_dat = data.frame(land_data, digit[1:10000])
 
 #t-sne on this data
 set.seed(314)
-land_data2 = distinct(data.frame(land_dat),X1,X2, X7,X8, .keep_all = TRUE)
+land_data2 = distinct(data.frame(land_dat),X1,X2,X3,X4,X5,X6,X7,X8, .keep_all = TRUE)
 Rt = Rtsne(normalize_input(as.matrix(land_data2[,-9])), dims =2)
 
 colors= c(palette.colors(), "peachpuff")
@@ -92,12 +92,6 @@ for(i in c(1,3,4,5,7))
   sub = subset(new, land_data2.digit.1.10000. == i)
   points(sub[,-3], main = i , col = colors[2], xlim = c(-80,70), ylim= c(-80,70))
 }
-
-
-
-
-
-
 
 ############UMAP####
 #umap on this data
