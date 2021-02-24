@@ -8,7 +8,7 @@ library(nonlinearTseries)
 
 #####################Downloading Data & Log returns##########################
 
-getSymbols(c("^GSPC","^DJI","^IXIC","^RUT"), from = "1995/1/1",to = "2021/1/1",periodicity = "daily")
+getSymbols(c("^GSPC","^DJI","^IXIC","^RUT"), from = "1987/12/22",to = "2016/12/18",periodicity = "daily")
 log_returns <- cbind(diff(log(GSPC[,6])),diff(log(DJI[,6])),diff(log(IXIC[,6])),diff(log(RUT[,6])))[-1,]
 
 ####################Determine window and delay###############################
@@ -21,8 +21,8 @@ acf(scales_lr$DJI.Adjusted, lag.max = 10)
 acf(scales_lr$IXIC.Adjusted, lag.max = 10)
 acf(scales_lr$RUT.Adjusted, lag.max = 10)
 
-tau_g_1 = timeLag(scales_lr$GSPC.Adjusted, technique = "acf", lag.max = 100, do.plot = T)
-tau_g_2 = timeLag(scales_lr$GSPC.Adjusted, technique = "ami", lag.max = 100, do.plot = T)
+tau_g_1 = timeLag(ts(scales_lr$GSPC.Adjusted), technique = "acf", lag.max = 100, do.plot = T)
+tau_g_2 = timeLag(ts(scales_lr$GSPC.Adjusted), technique = "ami", lag.max = 100, do.plot = T)
 tau_d_1 = timeLag(scales_lr$DJI.Adjusted, technique = "acf", lag.max = 100, do.plot = T)
 tau_d_2 = timeLag(scales_lr$DJI.Adjusted, technique = "ami", lag.max = 100, do.plot = T)
 tau_i_1 = timeLag(scales_lr$IXIC.Adjusted, technique = "acf", lag.max = 100, do.plot = T)
@@ -63,4 +63,19 @@ point_cloud_d = embedd(ts(scales_lr$DJI.Adjusted), m = emb_dim_d, d = tau_d_1)
 point_cloud_r = embedd(ts(scales_lr$RUT.Adjusted), m = emb_dim_r, d = tau_r_1)
 point_cloud_i = embedd(ts(scales_lr$IXIC.Adjusted), m = emb_dim_i, d = tau_i_1)
 
+#####################Analysing periodicity#####################
+period_cf = list()
+period_mi = list()
+emb_dim = list()
 
+for (i in seq(from = 1, to = 6200, by = 100))
+{
+gdata = ts(scales_lr$GSPC.Adjusted)[i:(i+100-1)]
+tau_1 = timeLag(gdata, technique = "acf", lag.max = 50, do.plot = F)
+tau_2 = timeLag(gdata, technique = "ami", lag.max = 50, do.plot = F)   
+emb_dim_g = estimateEmbeddingDim(gdata)
+period_cf = c(period_cf, tau_1)
+period_mi = c(period_mi, tau_2)
+emb_dim= c(emb_dim, emb_dim_g)
+print(emb_dim_g)
+}
